@@ -1,0 +1,116 @@
+.b_main {}
+
+.b_title {
+    display: block;
+    position: relative;
+}
+
+.b_title img:last-child {
+    position: absolute;
+    left: 76px;
+    top: 74px;
+}
+
+.b_contents {
+    padding-bottom: 75px;
+}
+
+.b_contents ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.b_con_up ul li a{
+    font-size: 13px;
+}
+
+.b_con_up {
+    display: flex;
+    padding-bottom: 33px;
+    width: 950px;
+}
+
+.b_con_01 {
+    display: block;
+    width: 332px;
+    
+}
+
+.b_con_02 {
+    display: block;
+    width: 318px;
+}
+
+
+
+.b_con_03 {
+    display: block;
+    width: 273px;
+}
+
+.b_con_04 {
+    display: block;
+    width: 332px;
+}
+
+.b_con_05 {
+    display: block;
+    width: 318px;
+}
+
+.b_con_05 p{
+    font-size: 13px;
+}
+
+
+.b_con_06 {
+    display: block;
+    width: 290px;
+    position: relative;
+}
+
+.b_con_06 p {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.b_con_06 p:hover {
+    cursor: pointer;
+
+}
+
+.b_con_06 ul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.b_con1, .b_con_02, .b_con_03, .b_con_04, .b_con_05, .b_con_06, h3 {
+    padding-bottom: 7px;
+    margin-bottom: 3px;
+}
+
+.b_con_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b_con_list ul li {
+    color: #555;
+}
+
+.b_con_down {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.b_con_down ul li a {
+    font-size: 13px;
+}
+
+
+.b_con_06 ul {
+    display: block;
+    width: 280px;
+}

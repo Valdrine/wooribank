@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리은행 개인 페이지</title>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/person.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            
+        </div>
+        <div class="util">
+            <div class="p_home">
+                <a href="#x"><img src="./images/p_home.png"></a>
+                <p>개인</p>
+            </div>
+            <div class="screen">
+                <a href="#x"><p>축소/확대보기</p></a>
+                <a href="#x"><p>화면인쇄</p></a>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="m_menu">
+                <a href="#x"><img src="./images/p_icon01.gif" alt=""><p>전계좌조회</p></a>
+                <a href="#x"><img src="./images/p_icon02.gif" alt=""><p>즉시이체</p></a>
+                <a href="#x"><img src="./images/p_icon03.gif" alt=""><p>지로납부</p></a>
+                <a href="#x"><img src="./images/p_icon04.gif" alt=""><p>예금신규</p></a>
+                <a href="#x"><img src="./images/p_icon05.png" alt=""><p>펀드신규</p></a>
+                <a href="#x"><img src="./images/p_icon06.gif" alt=""><p>대출이자납입</p></a>
+                <a href="#x"><img src="./images/p_icon08.gif" alt=""><p>퇴직연금</p></a>
+            </div>
+            <div id="items">
+                <div id="items_01">
+                    <img src="./images/p_main_01.png" alt="">
+                    <p>자세히보기</p>
+                </div>
+                <div id="items_02">
+                    <img src="./images/p_main_02.png" alt="">
+                    <p>자세히보기</p>
+                </div>
+                <div id="items_03">
+                    <img src="./images/p_main_03.png" alt="">
+                    <p>자세히보기</p>
+                </div>
+            </div>
+        </div>
+
+        <ul class="p_items">
+            <li class="first">
+                <h4>인터넷뱅킹 이용안내</h4>
+                <div class="i_item">
+                    <a href="#x">· 이용안내</a>
+                    <a href="#x">· 금리조회</a>
+                    <a href="#x"> ·수수료안내</a>
+                    <a href="#x">· 환율조회</a>
+                    <a href="#x">· 인증서발급.재발급</a>
+                    <a href="#x">· 금융계산기</a>
+                    <a href="#x">· 타기관인증서등록</a>
+                    <a href="#x">· 보안프로그램설치안내</a>
+                </div>
+            </li>
+            <li class="second">
+                <h4>고객센터</h4>
+                <ul>
+                    <li><p>고객상담 FAQ </p></li>
+                    <li><a href="#x">개인뱅킹</a><span>  |  </span><a href="#x">인증서</a><span>  |  </span><a href="#x">보안카드/OTP</a></li>
+                    <li><a href="#x">이메일상담 </a><span>24시간 신청가능</span></li>
+                    <li>전화상담 평일 09:00~18:00</li>
+                    <li>1588-5000, 1533-5000</li>
+                    <li>해외 82-2-2006-5000</li>
+                </ul>
+                
+                
+                
+            </li>
+            <li class="third">
+                <a href="#x"><img src="./images/qr.png"></a>
+            </li>
+        </ul>
+
+        <div class="footer"></div>
+
+        <script>
+                    
+            $(function(){
+                $(".header").load("./pages/header.html")
+            })
+        
+
+            $(function(){
+                $(".footer").load("./pages/footer.html");
+            })
+        </script>
+    </div>
+    
+</body>
+</html>
